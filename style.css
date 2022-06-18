@@ -1,3 +1,35 @@
 * {
     box-sizing: border-box;
 }
+
+#top {
+
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 143, 112);
+    background: linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
+    border-bottom-left-radius: 5rem;
+
+
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-words {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20rem;
+}
+
+/* #bubbles {
+    position: absolute;
+    top: -12rem;
+    left: -12rem;
+    width: 1000px
+} */
