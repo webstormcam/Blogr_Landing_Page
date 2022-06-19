@@ -108,6 +108,6 @@ h1 {
 
 @media screen and (min-width:1300px) {
     #top {
-        background: url('imgs/bg-pattern-intro-desktop.svg') no-repeat 30% center, linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
+        background: url('imgs/bg-pattern-intro-desktop.svg') no-repeat 30% center, linear-gradient(168deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
     }
 }
