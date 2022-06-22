@@ -110,6 +110,18 @@ h1 {
     border: 1px solid #fff;
 }
 
+#large-option-section {
+    display: none;
+}
+
+#ham {
+    display: block;
+}
+
+#large-account-access {
+    display: none;
+}
+
 
 
 @media screen and (min-width:1300px) {
@@ -130,5 +142,48 @@ h1 {
 
     #logo {
         width: 101px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #large-option-section {
+        display: flex;
+        flex-direction: row;
+        margin-left: 4rem;
+    }
+
+    #large-account-access {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    #desktop-login {
+        margin-right: 2rem;
+        font-family: 'Overpass', sans-serif;
+        color: #fff;
+    }
+
+    .drop-down {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        color: #fff;
+        font-family: 'Overpass', sans-serif;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .light-arrow {
+        margin-left: 0.5rem;
+    }
+
+    #ham {
+        display: none;
     }
 }
