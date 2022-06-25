@@ -1,8 +1,22 @@
-let ham = document.getElementById('ham')
-let mobileMenu = document.getElementById('mobile-menu')
+let ham = document.getElementById('ham');
+let mobileMenu = document.getElementById('mobile-menu');
+let miniDrop = document.querySelectorAll('.small-drop-down');
+
+
+for(let i=0;i<miniDrop.length;i++){
+    miniDrop[i].addEventListener('click',function(event){
+        console.log(miniDrop[i])
+
+    });
+}
+
+
+
+
+
+
 
 ham.addEventListener('click',clickedHam);
-
 function clickedHam(){
     if(ham.getAttribute('src')==='imgs/icon-hamburger.svg'){
         ham.src = 'imgs/icon-close.svg';
