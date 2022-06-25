@@ -6,6 +6,8 @@ let miniDrop = document.querySelectorAll('.small-drop-down');
 for(let i=0;i<miniDrop.length;i++){
     miniDrop[i].addEventListener('click',function(event){
         console.log(miniDrop[i])
+        let parent = miniDrop[i];
+        console.log(parent.children[1])
 
     });
 }
