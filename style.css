@@ -118,10 +118,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
-    font-family: 'Overpass', sans-serif;
-    width: 90%;
-    border-bottom: 1px solid grey;
+
 }
 
 #ham {
@@ -141,8 +138,14 @@ h1 {
     align-items: center;
     position: absolute;
     z-index: 500;
+    background-color: #fff;
+    font-family: 'Overpass', sans-serif;
+    width: 90%;
+
     border-radius: 1rem;
 }
+
+
 
 .small-drop-down {
     margin-left: 2rem;
@@ -156,6 +159,29 @@ h1 {
 
 .arrow {
     margin-left: 0.5rem;
+}
+
+.mobile-login-signup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blue-thin {
+    color: #1F3E5A;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.btn-orange {
+    color: #fff;
+    background: rgb(255, 143, 112);
+    background: linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
+    padding: 1rem 2.5rem 1rem 2.5rem;
 }
 
 
