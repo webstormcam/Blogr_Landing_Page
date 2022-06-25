@@ -4,10 +4,10 @@ let miniDrop = document.querySelectorAll('.small-drop-down');
 
 
 for(let i=0;i<miniDrop.length;i++){
-    miniDrop[i].addEventListener('click',function(event){
+    miniDrop[i].addEventListener('click',function(){
         console.log(miniDrop[i])
         let parent = miniDrop[i];
-        console.log(parent.children[1])
+        parent.children[1].classList.add('drop-picked')
 
     });
 }

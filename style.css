@@ -160,6 +160,7 @@ h1 {
 
 .arrow {
     margin-left: 0.5rem;
+    transition: transform .7s ease-in-out;
 }
 
 .mobile-login-signup {
@@ -186,7 +187,9 @@ h1 {
 }
 
 
-.drop-picked {}
+.drop-picked {
+    transform: rotate(180deg);
+}
 
 @media screen and (min-width:1300px) {
     #top {
