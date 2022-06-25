@@ -189,6 +189,7 @@ h1 {
 
 .drop-picked {
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 @media screen and (min-width:1300px) {
