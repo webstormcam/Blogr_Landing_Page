@@ -7,13 +7,15 @@ for(let i=0;i<miniDrop.length;i++){
     miniDrop[i].addEventListener('click', handleClick);
         function handleClick(e){
             let el = e.currentTarget;
-            el = el.children[1]
-            if (el.classList.contains('drop-picked')){
-                el.classList.remove('drop-picked')
-            } else{
-                el.classList.add('drop-picked')
+            el.children[1].classList.add('drop-picked')
+            for(let q=0;q<miniDrop.length;q++){
+                if(miniDrop[q]!==el){
+                  miniDrop[q].children[1].classList.remove('drop-picked');
+                }
             }
-            console.log(el)
+
+
+    
         }
         
      
