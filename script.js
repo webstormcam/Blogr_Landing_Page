@@ -4,12 +4,22 @@ let miniDrop = document.querySelectorAll('.small-drop-down');
 
 
 for(let i=0;i<miniDrop.length;i++){
-    miniDrop[i].addEventListener('click',function(){
-        console.log(miniDrop[i])
-        let parent = miniDrop[i];
-        parent.children[1].classList.add('drop-picked')
+    miniDrop[i].addEventListener('click', handleClick);
+        function handleClick(e){
+            let el = e.currentTarget;
+            el = el.children[1]
+            if (el.classList.contains('drop-picked')){
+                el.classList.remove('drop-picked')
+            } else{
+                el.classList.add('drop-picked')
+            }
+            console.log(el)
+        }
+        
+     
+     
 
-    });
+    
 }
 
 
