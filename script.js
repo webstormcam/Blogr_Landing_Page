@@ -1,6 +1,7 @@
 let ham = document.getElementById('ham');
 let mobileMenu = document.getElementById('mobile-menu');
 let miniDrop = document.querySelectorAll('.small-drop-down');
+let miniLinks = document.querySelectorAll('.option-menu')
 
 
 for(let i=0;i<miniDrop.length;i++){
@@ -12,6 +13,7 @@ for(let i=0;i<miniDrop.length;i++){
                 
             } else{
                 el.children[1].classList.add('drop-picked')
+               
             }
             for(let q=0;q<miniDrop.length;q++){
                 if(miniDrop[q]!==el){
