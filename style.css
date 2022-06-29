@@ -227,6 +227,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .top-drawing {
