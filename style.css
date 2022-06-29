@@ -211,10 +211,12 @@ h1 {
 
 h2 {
     text-align: center;
-    columns: #1F3E5A;
+    color: #1F3E5A;
     font-size: 28px;
     font-family: 'Overpass', sans-serif;
     font-weight: bold;
+    line-height: 32px;
+
 }
 
 #two-parts {
@@ -242,6 +244,12 @@ h2 {
     text-align: center;
     margin-top: 2rem;
 }
+
+.word-headers {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+
 
 @media screen and (min-width:1024px) {
     h1 {
