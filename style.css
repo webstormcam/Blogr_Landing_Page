@@ -260,6 +260,48 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.top-drawing-big {
+    display: none;
+
+}
+
+
+@media screen and (min-width:768px) {
+    .top-drawing {
+        display: none;
+    }
+
+    .part1-words {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        order: 10;
+        width: 40%;
+    }
+
+    .drawing-back {
+        order: 20;
+        justify-content: right;
+    }
+
+    .top-drawing-big {
+        display: block;
+        width: 60%;
+
+    }
+
+    #two-parts {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .word-headers {
+        text-align: left;
+    }
+}
+
 
 
 @media screen and (min-width:1024px) {
