@@ -271,6 +271,7 @@ h2 {
 @media screen and (min-width:768px) {
     .top-drawing {
         display: none;
+        width: 100%;
     }
 
     .part1-words {
@@ -287,16 +288,13 @@ h2 {
         order: 20;
         justify-content: right;
         position: absolute;
-        left: 25rem;
-        width: 80%;
+        left: 46rem;
+        width: 50%;
     }
 
     .top-drawing-big {
         display: block;
-        width: 100%;
-
-
-
+        width: 700px;
     }
 
     #two-parts {
