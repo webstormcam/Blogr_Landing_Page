@@ -278,7 +278,7 @@ h2 {
         flex-direction: column;
         text-align: left;
         order: 10;
-        width: 45%;
+        width: 50%;
 
 
     }
@@ -287,12 +287,14 @@ h2 {
         order: 20;
         justify-content: right;
         position: absolute;
-        left: 18rem;
+        left: 25rem;
+        width: 80%;
     }
 
     .top-drawing-big {
         display: block;
-        width: 90%;
+        width: 100%;
+
 
 
     }
@@ -308,6 +310,7 @@ h2 {
 
     .word-headers {
         text-align: left;
+        padding: 0rem;
     }
 
     #part1 {
