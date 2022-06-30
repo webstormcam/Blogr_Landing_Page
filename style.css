@@ -207,6 +207,8 @@ h1 {
 #middle {
     margin-top: 7rem;
     padding: 0rem 1.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -299,6 +301,10 @@ h2 {
 
     .word-headers {
         text-align: left;
+    }
+
+    #part1 {
+        max-width: 1110px;
     }
 }
 
