@@ -278,17 +278,22 @@ h2 {
         flex-direction: column;
         text-align: left;
         order: 10;
-        width: 40%;
+        width: 45%;
+
+
     }
 
     .drawing-back {
         order: 20;
         justify-content: right;
+        position: absolute;
+        left: 18rem;
     }
 
     .top-drawing-big {
         display: block;
-        width: 60%;
+        width: 90%;
+
 
     }
 
@@ -297,6 +302,8 @@ h2 {
         flex-direction: row;
         align-items: center;
         margin-top: 2rem;
+        position: relative;
+        overflow: hidden;
     }
 
     .word-headers {
