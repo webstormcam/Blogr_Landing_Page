@@ -303,7 +303,7 @@ h2 {
         align-items: center;
         margin-top: 2rem;
         position: relative;
-        overflow: hidden;
+
     }
 
     .word-headers {
@@ -314,82 +314,92 @@ h2 {
     #part1 {
         max-width: 1110px;
     }
-}
 
-
-
-@media screen and (min-width:1024px) {
-    h1 {
-        font-size: 44px;
-    }
-}
-
-
-@media screen and (min-width:1300px) {
-    #top {
-        background: url('imgs/bg-pattern-intro-desktop.svg') no-repeat 30% center, linear-gradient(168deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
-    }
-
-    h1 {
-        font-size: 64px;
-        margin-bottom: 1.5rem;
-    }
-
-    .top-words p {
-        font-size: 20px;
-
-
-    }
-
-    #logo {
-        width: 101px;
-    }
-
-    .right {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    #large-option-section {
-        display: flex;
-        flex-direction: row;
-        margin-left: 4rem;
-    }
-
-    #large-account-access {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-    }
-
-    #desktop-login {
-        margin-right: 2rem;
-        font-family: 'Overpass', sans-serif;
-        color: #fff;
-    }
-
-
-    .drop-down {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        color: #fff;
-        font-family: 'Overpass', sans-serif;
-        display: flex;
-        align-items: center;
-
+    #middle {
+        overflow: hidden;
+        width: 100%;
+        margin-top: 0rem;
+        padding: 7rem 1.5rem 0rem 1.5rem;
     }
 
 
 
 
 
-    #ham {
-        display: none;
+
+
+    @media screen and (min-width:1024px) {
+        h1 {
+            font-size: 44px;
+        }
     }
 
-    #mobile-menu {
-        display: none !important;
+
+    @media screen and (min-width:1300px) {
+        #top {
+            background: url('imgs/bg-pattern-intro-desktop.svg') no-repeat 30% center, linear-gradient(168deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
+        }
+
+        h1 {
+            font-size: 64px;
+            margin-bottom: 1.5rem;
+        }
+
+        .top-words p {
+            font-size: 20px;
+
+
+        }
+
+        #logo {
+            width: 101px;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #large-option-section {
+            display: flex;
+            flex-direction: row;
+            margin-left: 4rem;
+        }
+
+        #large-account-access {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        }
+
+        #desktop-login {
+            margin-right: 2rem;
+            font-family: 'Overpass', sans-serif;
+            color: #fff;
+        }
+
+
+        .drop-down {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            color: #fff;
+            font-family: 'Overpass', sans-serif;
+            display: flex;
+            align-items: center;
+
+        }
+
+
+
+
+
+        #ham {
+            display: none;
+        }
+
+        #mobile-menu {
+            display: none !important;
+        }
     }
-}
