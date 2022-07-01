@@ -292,6 +292,12 @@ h2 {
     text-align: center;
     padding: 0rem 1.5rem;
     position: relative;
+    width: 100%;
+}
+
+.part2_items {
+    position: relative;
+
 }
 
 #middle {
@@ -306,7 +312,7 @@ h2 {
     font-weight: 600;
     line-height: 61px;
     letter-spacing: -1.2px;
-    margin-top: 17rem;
+    margin-top: 15rem;
 }
 
 .middle-words {
@@ -331,7 +337,24 @@ h2 {
     width: 100%;
     position: absolute;
     top: -10rem;
+    max-width: 450px;
 }
+
+.part2_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+@media screen and (min-width:437px) {
+    .middle-head {
+        margin-top: 17rem;
+    }
+}
+
+
 
 
 @media screen and (min-width:768px) {
@@ -384,6 +407,7 @@ h2 {
     #part2 {
         margin-top: 8rem;
         width: 100%;
+
     }
 
     #middle {
@@ -392,6 +416,36 @@ h2 {
         margin-top: 0rem;
         padding: 7rem 0rem 0rem 0rem;
         align-items: center;
+    }
+
+    #part2 {
+
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    .part2_items {
+        position: relative;
+        max-width: 1110px;
+        flex-direction: row;
+
+    }
+
+    .phones {
+        width: 100%;
+        position: relative;
+        top: 0;
+        max-width: 430px;
+        left: -30px;
+    }
+
+    .middle-head {
+        margin-top: 0rem;
+    }
+
+    .middle-words {
+        margin-bottom: 0rem;
     }
 
 
@@ -403,6 +457,14 @@ h2 {
 @media screen and (min-width:1024px) {
     h1 {
         font-size: 44px;
+    }
+
+    .middle-head {
+        text-align: left;
+    }
+
+    .middle-words {
+        text-align: left;
     }
 }
 
@@ -474,16 +536,20 @@ h2 {
         width: 900px;
     }
 
-    #middle {
 
-        /* padding: 10rem 1.5rem 7rem 1.5rem; */
-    }
 
     h2 {
         font-size: 40px;
     }
 
+    .phones {
+        max-width: 472px;
+    }
 
+    .middle-context {
+        position: relative;
+        right: -5rem;
+    }
 
 
 
