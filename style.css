@@ -291,6 +291,7 @@ h2 {
     border-bottom-left-radius: 7rem;
     text-align: center;
     padding: 0rem 1.5rem;
+    position: relative;
 }
 
 #middle {
@@ -305,7 +306,7 @@ h2 {
     font-weight: 600;
     line-height: 61px;
     letter-spacing: -1.2px;
-    margin-top: 20rem;
+    margin-top: 17rem;
 }
 
 .middle-words {
@@ -324,6 +325,12 @@ h2 {
 
 .white {
     color: #fff;
+}
+
+.phones {
+    width: 100%;
+    position: absolute;
+    top: -10rem;
 }
 
 
