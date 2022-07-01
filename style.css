@@ -282,12 +282,48 @@ h2 {
     flex-direction: column;
     align-items: center;
     background-color: #2D2E40;
+    background-image: url('imgs/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% -240px;
     margin-top: 15rem;
+    border-top-right-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    text-align: center;
+    padding: 0rem 1.5rem;
 }
 
 #middle {
     display: flex;
     flex-direction: column;
+
+}
+
+.middle-head {
+    font-family: 'Overpass', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: -1.2px;
+    margin-top: 20rem;
+}
+
+.middle-words {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.white {
+    color: #fff;
 }
 
 
@@ -352,105 +388,105 @@ h2 {
     }
 
 
+}
 
 
 
 
+@media screen and (min-width:1024px) {
+    h1 {
+        font-size: 44px;
+    }
+}
 
-    @media screen and (min-width:1024px) {
-        h1 {
-            font-size: 44px;
-        }
+
+@media screen and (min-width:1300px) {
+    #top {
+        background: url('imgs/bg-pattern-intro-desktop.svg') no-repeat 30% center, linear-gradient(168deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
+    }
+
+    h1 {
+        font-size: 64px;
+        margin-bottom: 1.5rem;
+    }
+
+    .top-words p {
+        font-size: 20px;
+
+
+    }
+
+    #logo {
+        width: 101px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #large-option-section {
+        display: flex;
+        flex-direction: row;
+        margin-left: 4rem;
+    }
+
+    #large-account-access {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    #desktop-login {
+        margin-right: 2rem;
+        font-family: 'Overpass', sans-serif;
+        color: #fff;
     }
 
 
-    @media screen and (min-width:1300px) {
-        #top {
-            background: url('imgs/bg-pattern-intro-desktop.svg') no-repeat 30% center, linear-gradient(168deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
-        }
+    .drop-down {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        color: #fff;
+        font-family: 'Overpass', sans-serif;
+        display: flex;
+        align-items: center;
 
-        h1 {
-            font-size: 64px;
-            margin-bottom: 1.5rem;
-        }
-
-        .top-words p {
-            font-size: 20px;
-
-
-        }
-
-        #logo {
-            width: 101px;
-        }
-
-        .right {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        #large-option-section {
-            display: flex;
-            flex-direction: row;
-            margin-left: 4rem;
-        }
-
-        #large-account-access {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-
-        }
-
-        #desktop-login {
-            margin-right: 2rem;
-            font-family: 'Overpass', sans-serif;
-            color: #fff;
-        }
-
-
-        .drop-down {
-            margin-left: 2rem;
-            margin-right: 2rem;
-            color: #fff;
-            font-family: 'Overpass', sans-serif;
-            display: flex;
-            align-items: center;
-
-        }
-
-        .drawing-back {
-
-            left: 62rem;
-
-        }
-
-        .top-drawing-big {
-
-            width: 900px;
-        }
-
-        #middle {
-
-            /* padding: 10rem 1.5rem 7rem 1.5rem; */
-        }
-
-        h2 {
-            font-size: 40px;
-        }
-
-
-
-
-
-
-
-        #ham {
-            display: none;
-        }
-
-        #mobile-menu {
-            display: none !important;
-        }
     }
+
+    .drawing-back {
+
+        left: 62rem;
+
+    }
+
+    .top-drawing-big {
+
+        width: 900px;
+    }
+
+    #middle {
+
+        /* padding: 10rem 1.5rem 7rem 1.5rem; */
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+
+
+
+
+
+
+    #ham {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: none !important;
+    }
+}
