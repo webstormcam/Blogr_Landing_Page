@@ -313,6 +313,8 @@ h2 {
     line-height: 61px;
     letter-spacing: -1.2px;
     margin-top: 15rem;
+
+
 }
 
 .middle-words {
@@ -335,8 +337,6 @@ h2 {
 
 .phones {
     width: 100%;
-    position: absolute;
-    top: -10rem;
     max-width: 450px;
 }
 
@@ -347,10 +347,20 @@ h2 {
 
 }
 
+#phone-container {
+    position: absolute;
+    top: -8rem;
+}
 
-@media screen and (min-width:437px) {
+
+
+@media screen and (min-width:410px) {
     .middle-head {
-        margin-top: 17rem;
+        margin-top: 12rem;
+    }
+
+    #phone-container {
+        top: -15rem;
     }
 }
 
@@ -407,6 +417,10 @@ h2 {
     #part2 {
         margin-top: 8rem;
         width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        margin-bottom: 8rem;
 
     }
 
@@ -418,34 +432,52 @@ h2 {
         align-items: center;
     }
 
-    #part2 {
 
-        flex-direction: row;
-        justify-content: space-evenly;
-
-    }
 
     .part2_items {
         position: relative;
         max-width: 1110px;
         flex-direction: row;
+        align-items: center;
+        justify-content: end;
+
+    }
+
+    #phone-container {
+        position: absolute;
+        top: -3rem;
+        max-width: 430px;
+        left: -30px;
+        width: 50%;
+        display: flex;
+        order: -1;
+    }
+
+    .middle-context {
+        width: 50%;
+        order: 500;
+        display: flex;
+        flex-direction: column;
+        order: 4;
 
     }
 
     .phones {
-        width: 100%;
-        position: relative;
-        top: 0;
-        max-width: 430px;
-        left: -30px;
+        width: 400px;
+        max-width: none;
+
+
+
     }
 
     .middle-head {
         margin-top: 0rem;
+        padding-top: 2rem;
     }
 
     .middle-words {
         margin-bottom: 0rem;
+        padding-bottom: 2rem;
     }
 
 
@@ -466,12 +498,22 @@ h2 {
     .middle-words {
         text-align: left;
     }
+
+    .phones {
+        width: 500px;
+    }
+
+
 }
 
 
 @media screen and (min-width:1300px) {
     #top {
         background: url('imgs/bg-pattern-intro-desktop.svg') no-repeat 30% center, linear-gradient(168deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 89%);
+    }
+
+    #middle {
+        padding: 12rem 0rem 0rem 0rem;
     }
 
     h1 {
@@ -543,13 +585,23 @@ h2 {
     }
 
     .phones {
-        max-width: 472px;
+        width: 700px;
+
+    }
+
+    #phone-container {
+        top: -10rem;
     }
 
     .middle-context {
         position: relative;
         right: -5rem;
     }
+
+    #part2 {
+        margin-top: 18rem;
+    }
+
 
 
 
