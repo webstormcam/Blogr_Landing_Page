@@ -374,6 +374,19 @@ h2 {
     top: -8rem;
 }
 
+#end {
+    background-color: #24242C;
+    border-top-right-radius: 4rem;
+}
+
+#footer-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
 
 
 @media screen and (min-width:410px) {
