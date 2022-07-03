@@ -228,7 +228,21 @@ h2 {
     margin-top: 2rem;
 }
 
+#two-parts2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
 .drawing-back {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.drawing-back2 {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -273,6 +287,10 @@ h2 {
 
 }
 
+.top-drawing-big2 {
+    display: none;
+}
+
 #part1 {
     padding: 0rem 1.5rem;
 }
@@ -298,6 +316,10 @@ h2 {
 .part2_items {
     position: relative;
 
+}
+
+#part3 {
+    padding: 0rem 1.5rem;
 }
 
 #middle {
@@ -367,6 +389,7 @@ h2 {
 
 
 
+
 @media screen and (min-width:768px) {
     .top-drawing {
         display: none;
@@ -391,6 +414,13 @@ h2 {
         width: 50%;
     }
 
+    .drawing-back2 {
+        justify-content: left;
+        position: absolute;
+        left: -22rem;
+        width: 50%;
+    }
+
     .top-drawing-big {
         display: block;
         width: 700px;
@@ -403,6 +433,15 @@ h2 {
         margin-top: 2rem;
         position: relative;
 
+    }
+
+    #two-parts2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 3rem;
+        justify-content: end;
+        position: relative;
     }
 
     .word-headers {
@@ -420,9 +459,21 @@ h2 {
         padding-top: 4rem;
         padding-bottom: 4rem;
 
+
         margin-bottom: 8rem;
 
+
     }
+
+    #part3 {
+        max-width: 1110px;
+    }
+
+
+
+
+
+
 
     #middle {
         overflow: hidden;
@@ -440,6 +491,7 @@ h2 {
         flex-direction: row;
         align-items: center;
         justify-content: end;
+
 
     }
 
@@ -480,6 +532,11 @@ h2 {
         padding-bottom: 2rem;
     }
 
+    .top-drawing-big2 {
+        display: block;
+        width: 700px;
+    }
+
 
 }
 
@@ -501,6 +558,10 @@ h2 {
 
     .phones {
         width: 500px;
+    }
+
+    .top-drawing-big2 {
+        width: 820px;
     }
 
 
@@ -573,9 +634,17 @@ h2 {
 
     }
 
+    .drawing-back2 {
+        left: -29.5rem;
+    }
+
     .top-drawing-big {
 
         width: 900px;
+    }
+
+    .top-drawing-big2 {
+        width: 1000px;
     }
 
 
@@ -595,11 +664,17 @@ h2 {
 
     .middle-context {
         position: relative;
-        right: -2rem;
+        right: rem;
     }
 
     #part2 {
         margin-top: 18rem;
+        background-position: -10rem -30rem;
+    }
+
+    #part3 {
+        margin-top: 7rem;
+        margin-bottom: 10rem;
     }
 
 
