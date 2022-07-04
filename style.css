@@ -383,7 +383,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
     margin-top: 4rem;
 }
 
@@ -400,6 +400,15 @@ h2 {
 
 .link-title {
     margin-bottom: 2rem;
+}
+
+.link {
+    margin-bottom: 1rem;
+    color: #ffffff59;
+}
+
+.link-container {
+    margin-bottom: 4rem;
 }
 
 
