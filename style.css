@@ -387,6 +387,21 @@ h2 {
     margin-top: 4rem;
 }
 
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 4rem;
+}
+
+.link-title {
+    margin-bottom: 2rem;
+}
+
 
 
 @media screen and (min-width:410px) {
