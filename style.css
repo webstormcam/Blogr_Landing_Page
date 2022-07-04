@@ -376,7 +376,7 @@ h2 {
 
 #end {
     background-color: #24242C;
-    border-top-right-radius: 4rem;
+    border-top-right-radius: 7rem;
     padding: 0rem 1.5rem;
 }
 
@@ -590,6 +590,7 @@ h2 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        text-align: left;
 
     }
 
@@ -597,7 +598,10 @@ h2 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        justify-content: space-evenly;
         margin-top: 0rem;
+        width: 100%;
+        text-align: left;
 
 
     }
