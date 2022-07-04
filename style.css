@@ -377,6 +377,7 @@ h2 {
 #end {
     background-color: #24242C;
     border-top-right-radius: 4rem;
+    padding: 0rem 1.5rem;
 }
 
 #footer-items {
@@ -400,6 +401,7 @@ h2 {
 
 .link-title {
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .link {
@@ -506,6 +508,16 @@ h2 {
         max-width: 1110px;
     }
 
+    #end {
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer-items {
+        max-width: 1110px;
+        width: 100%;
+    }
+
 
 
 
@@ -572,6 +584,22 @@ h2 {
     .top-drawing-big2 {
         display: block;
         width: 700px;
+    }
+
+    #footer-items {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+
+    .info-section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 0rem;
+
+
     }
 
 
