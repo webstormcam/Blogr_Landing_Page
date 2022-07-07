@@ -1,7 +1,8 @@
 let ham = document.getElementById('ham');
 let mobileMenu = document.getElementById('mobile-menu');
-let miniDrop = document.querySelectorAll('.small-drop-down');
+let miniDrop = document.querySelectorAll('.mini-option-picker');
 let miniLinks = document.querySelectorAll('.option-menu')
+let miniMenus = document.querySelectorAll('.small-drop-down');
 
 
 for(let i=0;i<miniDrop.length;i++){
@@ -10,14 +11,17 @@ for(let i=0;i<miniDrop.length;i++){
             let el = e.currentTarget;
           if( el.children[1].classList.contains('drop-picked')){
                 el.children[1].classList.remove('drop-picked');
+                miniMenus[i].children[1].classList.remove('appear');
                 
             } else{
                 el.children[1].classList.add('drop-picked')
+                miniMenus[i].children[1].classList.add('appear');
                
             }
             for(let q=0;q<miniDrop.length;q++){
                 if(miniDrop[q]!==el){
                   miniDrop[q].children[1].classList.remove('drop-picked');
+                  miniMenus[q].children[1].classList.remove('appear')
                 }
             }
 
