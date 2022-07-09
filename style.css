@@ -28,10 +28,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 1.5rem;
+    padding: 2.5rem 1.5rem;
     z-index: 500;
     width: 100%;
     max-width: 1110px;
+    font-weight: bold;
 }
 
 #logo {
@@ -451,6 +452,22 @@ h2 {
     color: #2D2E40;
 }
 
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn-clear:hover {
+    background-color: #fff;
+    color: rgb(255, 143, 112);
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-color: rgba(255, 143, 112, 0.548);
+    ;
+}
+
 
 
 
@@ -519,6 +536,7 @@ h2 {
         flex-direction: row;
         align-items: center;
         margin-top: 3rem;
+        margin-bottom: 6rem;
         justify-content: end;
         position: relative;
     }
@@ -533,13 +551,13 @@ h2 {
     }
 
     #part2 {
-        margin-top: 8rem;
+        margin-top: 10rem;
         width: 100%;
         padding-top: 4rem;
         padding-bottom: 4rem;
 
 
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
 
 
     }
@@ -671,6 +689,16 @@ h2 {
 
     .top-drawing-big2 {
         width: 820px;
+    }
+
+    #two-parts2 {
+
+        margin-bottom: 9rem;
+
+    }
+
+    #part2 {
+        margin-bottom: 7rem;
     }
 
 
@@ -817,5 +845,22 @@ h2 {
 
     #large-option-section {
         position: relative;
+    }
+
+    .middle-header {
+        position: relative;
+        top: -3rem;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+
+
+    }
+
+    .top-bar {
+
+        padding: 3.5rem 1.5rem;
+
     }
 }
