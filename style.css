@@ -45,6 +45,7 @@
     padding: 0rem 1.5rem;
     width: 100%;
     align-items: center;
+    z-index: 1;
 
 
 }
@@ -800,5 +801,19 @@ h2 {
 
     .small-drop-down {
         margin-right: 2rem;
+    }
+
+    .absolutey {
+        position: absolute;
+        width: 168px;
+        background-color: #fff;
+        color: #1F3E5A;
+        text-align: left;
+        top: 1.5rem;
+        z-index: 500;
+    }
+
+    #large-option-section {
+        position: relative;
     }
 }
