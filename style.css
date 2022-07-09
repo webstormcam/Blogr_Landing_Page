@@ -797,4 +797,8 @@ h2 {
     #mobile-menu {
         display: none !important;
     }
+
+    .small-drop-down {
+        margin-right: 2rem;
+    }
 }
